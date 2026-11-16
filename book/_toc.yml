@@ -1,0 +1,15 @@
+format: jb-book
+root: intro
+parts:
+  - caption: About
+    chapters:
+      - file: how_to_use
+      - file: errata
+  - caption: Code by chapter
+    chapters:
+      - file: notebooks/ch03_descriptive_analysis
+      - file: notebooks/ch04_principles_of_visualization
+      - file: notebooks/ch05_visualization_methods
+      - file: notebooks/ch06_special_types_of_data
+      - file: notebooks/appA_python_reference
+      - file: notebooks/appB_gestalt_principles

@@ -1,0 +1,22 @@
+title: "Exploratory Data Analysis: Errata and Code"
+author: Leandro Nunes de Castro
+copyright: "2026"
+logo: ""
+execute:
+  execute_notebooks: "off"
+repository:
+  url: https://github.com/lndecastro/EDA-Book
+  path_to_book: book
+  branch: main
+launch_buttons:
+  colab_url: "https://colab.research.google.com"
+  notebook_interface: classic
+html:
+  use_repository_button: true
+  use_issues_button: true
+  home_page_in_navbar: true
+sphinx:
+  config:
+    html_show_copyright: true
+    html_css_files:
+      - custom.css

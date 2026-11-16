@@ -1,0 +1,17 @@
+numpy
+pandas
+scipy
+matplotlib
+seaborn
+scikit-learn
+statsmodels
+plotly
+geopandas
+networkx
+nltk
+spacy
+textstat
+wordcloud
+squarify
+ucimlrepo
+jupyterlab

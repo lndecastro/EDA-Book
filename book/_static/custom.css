@@ -1,0 +1,8 @@
+/* Errata table: wrap text and use the full page width */
+.bd-page-width { max-width: 100rem !important; }
+.bd-main .bd-content .bd-article-container { max-width: 100% !important; }
+#errata table { table-layout: fixed; width: 100%; font-size: 0.85rem; }
+#errata table td, #errata table th { white-space: normal; word-wrap: break-word; vertical-align: top; }
+#errata table th:nth-child(1) { width: 7%; } #errata table th:nth-child(2) { width: 8%; }
+#errata table th:nth-child(3) { width: 14%; } #errata table th:nth-child(4) { width: 29%; }
+#errata table th:nth-child(5) { width: 42%; }
