@@ -3,7 +3,7 @@
 Errata and runnable code for **Exploratory Data Analysis: Descriptive Analysis, Visualization, and Dashboard Design (with Code Snippets in Python)**, by Leandro Nunes de Castro (CRC Press, 2026).
 
 - Website: https://lndecastro.github.io/EDA-Book
-- Errata (PDF): [`book/EDA_Book_Errata_v1.0.pdf`](book/EDA_Book_Errata_v1.0.pdf)
+- Errata (PDF): [`book/EDA_Book_Errata.pdf`](book/EDA_Book_Errata.pdf)
 - Notebooks: [`book/notebooks`](book/notebooks). Each notebook has an **Open in Colab** badge.
 
 ## Build the website locally
