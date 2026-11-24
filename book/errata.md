@@ -1,4 +1,4 @@
-# Errata
+# Corrections and Clarifications to the First Printing
 
 **Version 1.2, November 2026.** Applies to the first printing. Page numbers refer to the printed book.
 
