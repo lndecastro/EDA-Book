@@ -1,4 +1,4 @@
-# Exploratory Data Analysis: Errata and Code
+# Exploratory Data Analysis: Companion Site
 
 Companion site for **Exploratory Data Analysis: Descriptive Analysis, Visualization, and Dashboard Design (with Code Snippets in Python)**, by Leandro Nunes de Castro (CRC Press, 2026).
 
@@ -9,7 +9,7 @@ The book introduces exploratory data analysis for analysts, students and busines
 ## What this site contains
 
 - **[Errata](errata.md):** corrections to the first printing, also available as a PDF.
-- **Code by chapter:** every code listing in the book, as a notebook you can run in your browser with Google Colab or download and run locally. Listings affected by the errata are corrected and marked.
+- **Code by chapter:** every code listing in the book, as a notebook you can run in your browser with Google Colab or download and run locally. Updated listings are marked.
 
 | Notebook | Open in Colab |
 |---|---|
@@ -22,6 +22,6 @@ The book introduces exploratory data analysis for analysts, students and busines
 
 Chapters 1, 2 and 7 have no code listings.
 
-## Reporting errors
+## Feedback
 
-To report a new error, please [open an issue](https://github.com/lndecastro/EDA-Book/issues) and give the page number and a short description.
+To report an issue or suggest an improvement, please [open an issue](https://github.com/lndecastro/EDA-Book/issues) and give the page number and a short description.
