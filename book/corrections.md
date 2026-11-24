@@ -1,6 +1,6 @@
 # Corrections and Clarifications
 
-**Version 1.2, November 2026.** Applies to the first printing. Page numbers refer to the printed book.
+**Version 1.2, November 2026.** Applies to the **first printing only**. Page numbers refer to the printed book.
 
 {download}`Download as a PDF <EDA_Book_Corrections_and_Clarifications.pdf>`
 
