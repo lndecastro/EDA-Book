@@ -3,7 +3,7 @@
 Companion site with runnable code and updates for **Exploratory Data Analysis: Descriptive Analysis, Visualization, and Dashboard Design (with Code Snippets in Python)**, by Leandro Nunes de Castro (CRC Press, 2026).
 
 - Website: https://lndecastro.github.io/EDA-Book
-- Errata (PDF): [`book/EDA_Book_Errata.pdf`](book/EDA_Book_Errata.pdf)
+- Corrections and Clarifications (PDF): [`book/EDA_Book_Corrections_and_Clarifications.pdf`](book/EDA_Book_Corrections_and_Clarifications.pdf)
 - Notebooks: [`book/notebooks`](book/notebooks). Each notebook has an **Open in Colab** badge.
 
 ## Build the website locally

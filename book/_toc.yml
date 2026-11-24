@@ -4,7 +4,7 @@ parts:
   - caption: About
     chapters:
       - file: how_to_use
-      - file: errata
+      - file: corrections
   - caption: Code by chapter
     chapters:
       - file: notebooks/ch03_descriptive_analysis

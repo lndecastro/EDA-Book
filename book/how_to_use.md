@@ -17,7 +17,7 @@ jupyter lab book/notebooks
 
 ## Two versions of each listing
 
-- **Book version:** the code as printed in the book, with the errata corrections applied.
+- **Book version:** the code as printed in the book, with the corrections and clarifications applied.
 - **Print-quality version:** shown where the printed figures used extra formatting (font sizes, figure size). It also saves the figure as an SVG file.
 
 ## Data

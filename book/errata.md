@@ -1,8 +1,8 @@
-# Errata
+# Corrections and Clarifications
 
 **Version 1.2, November 2026.** Applies to the first printing. Page numbers refer to the printed book.
 
-{download}`Download the errata as a PDF <EDA_Book_Errata.pdf>`
+{download}`Download as a PDF <EDA_Book_Errata.pdf>`
 
 There are 68 entries in five categories. Within each category the entries are in page order; the IDs (E01–E68) follow the page order of the whole list and are used in the notebooks, where each corrected listing is marked with its ID.
 

@@ -8,7 +8,7 @@ The book introduces exploratory data analysis for analysts, students and busines
 
 ## What this site contains
 
-- **[Errata](errata.md):** corrections to the first printing, also available as a PDF.
+- **[Corrections and Clarifications](corrections.md):** updates to the first printing, also available as a PDF.
 - **Code by chapter:** every code listing in the book, as a notebook you can run in your browser with Google Colab or download and run locally. Updated listings are marked.
 
 | Notebook | Open in Colab |
