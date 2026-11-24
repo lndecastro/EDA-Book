@@ -6,16 +6,16 @@
 
 There are 68 entries in five categories. Within each category the entries are in page order; the IDs (E01–E68) follow the page order of the whole list and are used in the notebooks, where each corrected listing is marked with its ID.
 
-- **[Corrections](#corrections)** (33): Statements, values or formulas that are wrong.
+- **[Corrections](#corrections)** (33): Statements, values or formulas that need correction.
 - **[Clarifications](#clarifications)** (9): Text that is correct but imprecise, incomplete, or easy to misread.
-- **[Notation](#notation)** (5): Symbols changed for consistency; the meaning was not wrong.
+- **[Notation](#notation)** (5): Symbols changed for consistency.
 - **[Code updates](#code-updates)** (6): Changes to code listings and their printed outputs.
 - **[Editorial](#editorial)** (15): Typos, misspelled names, and labels.
 
 (corrections)=
 ## Corrections
 
-Statements, values or formulas that are wrong.
+Statements, values or formulas that need correction.
 
 | ID | Page | Location | Printed | Correction |
 |---|---|---|---|---|
@@ -48,7 +48,7 @@ Statements, values or formulas that are wrong.
 | <a id="e57"></a>**E57** | 145 | Sec. 5.1.2, last para. | "The position of the median (Q2) within the boxplot gives an idea of the spread of the middle 50% of the values." | "… gives an idea of the symmetry of the middle 50% of the values; the length of the box (IQR) shows their spread." |
 | <a id="e58"></a>**E58** | 146 | Sec. 5.1.3 | "outliers appear out of the violin body". | "…and extreme values appear as long, narrow tails of the violin body." With default settings, every observation lies inside the violin, so outliers cannot appear outside it. |
 | <a id="e59"></a>**E59** | 147 | Sec. 5.1.3, last para. | A value "significantly smaller than the lower whisker … was not small enough to be marked as an outlier". | "Note that there is one sepal length value for the Iris-virginica species that lies well below the others: it is marked as an outlier (open circle) in the boxplot, and it falls within the lower tail of the violin." Figure 5.5 is correct as printed. |
-| <a id="e61"></a>**E61** | 190 | Sec. 6.1.3, para. 2 | Wind speed and mean pressure averages near their minima said to suggest "drier weather with few wind blows"; standard deviation as a percentage of the mean for temperature (°C); the impossible pressures (−3.042 and 7,679.333 hPa) described as values that "may be" errors. | Replace from "The “humidity” follows…" to the end of the paragraph with: "The “humidity” follows a similar trend, while the “wind_speed” average is closer to its minimal value than to its maximal one. In terms of dispersion, “humidity” has a standard deviation of about 28% of its mean, and “wind_speed” of about 67%. The mean pressure, however, ranges from −3.042 to 7,679.333 hPa: nine values lie outside 950–1,050 hPa, and seven of them are physically impossible. These are reading or entry errors and are treated as missing from here on. After this treatment, the mean pressure varies in [991.4, 1,023.0] hPa, with a mean of 1,008.3 hPa and a standard deviation of 7.4 hPa. Let us now perform a visual analysis of the series." Table 6.2 is correct as printed (raw data). |
+| <a id="e61"></a>**E61** | 190 | Sec. 6.1.3, para. 2 | Wind speed and mean pressure averages near their minima said to suggest "drier weather with few wind blows"; standard deviation as a percentage of the mean for temperature (°C); the impossible pressures (−3.042 and 7,679.333 hPa) described as possibly invalid. | Replace from "The “humidity” follows…" to the end of the paragraph with: "The “humidity” follows a similar trend, while the “wind_speed” average is closer to its minimal value than to its maximal one. In terms of dispersion, “humidity” has a standard deviation of about 28% of its mean, and “wind_speed” of about 67%. The mean pressure, however, ranges from −3.042 to 7,679.333 hPa: nine values lie outside 950–1,050 hPa, and seven of them are physically impossible. These are reading or entry errors and are treated as missing from here on. After this treatment, the mean pressure varies in [991.4, 1,023.0] hPa, with a mean of 1,008.3 hPa and a standard deviation of 7.4 hPa. Let us now perform a visual analysis of the series." Table 6.2 is correct as printed (raw data). |
 | <a id="e62"></a>**E62** | 191–194 | Secs. 6.1.4.1–6.1.4.4, Code 6.1, Figs. 6.1–6.4 | Mean pressure described as "almost constant" with outliers and "almost no correlation" with the other variables; figures drawn with the invalid values. | With the nine suspect values treated as missing (Code 6.1 adds the screening step), the mean pressure follows a seasonal cycle in reverse phase with temperature (higher in winter), is bimodal, shows no box-plot outliers, and is strongly negatively correlated with the mean temperature (r = −0.88; weaker with humidity, 0.33, and wind speed, −0.29). With the invalid values included, these correlations appear close to zero (−0.04, 0.00, −0.02). Figures 6.1–6.4 are redrawn. |
 | <a id="e65"></a>**E65** | 232 | Sec. 6.3.5.1, connected components | "a subset of nodes … in which each node is connected to every other node". | For an undirected graph: "a maximal set of nodes in which every pair is joined by a path" (direct links between all pairs would form a clique). |
 | <a id="e67"></a>**E67** | 263 | Sec. 7.3, item 3 | "green is generally accessible to individuals with color vision deficiencies". | Red–green deficiency is the most common type, so green and red should not be used as the only contrast. Pair color with labels or icons, or use a blue–orange palette. |
@@ -73,7 +73,7 @@ Text that is correct but imprecise, incomplete, or easy to misread.
 (notation)=
 ## Notation
 
-Symbols changed for consistency; the meaning was not wrong.
+Symbols changed for consistency.
 
 | ID | Page | Location | Printed | Correction |
 |---|---|---|---|---|
@@ -120,4 +120,4 @@ Typos, misspelled names, and labels.
 | <a id="e53"></a>**E53** | 95–96, 134 | Fig. 3.9 caption; Sec. 3.5; Sec. 4.2.2.2 | "regressor(s)" used for the fitted line. | Use "regression line" or "fitted line". A regressor is a predictor (explanatory) variable. |
 | <a id="e66"></a>**E66** | 232 | Eq. (6.9) | "where E is the number of nodes". | "where E is the number of edges". |
 
-To report a further error, please [open an issue](https://github.com/lndecastro/EDA-Book/issues).
+To report a further issue, please [open an issue](https://github.com/lndecastro/EDA-Book/issues).
